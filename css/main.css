@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: "Muli", sans-serif;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+section {
+  padding: 10px;
+}
+
+.row {
+  justify-content: space-around;
+  padding: 4px;
+}
+.row .col,
+.row .col-12 {
+  margin: 2%;
+  cursor: pointer;
+  height: 6.3rem;
+  min-width: 6.3rem;
+  color: white;
+  border: 1px solid white;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row .col span,
+.row .col-12 span {
+  color: inherit;
+  font-weight: 600;
+  text-shadow: 1px 4px 35px grey;
+  font-size: 100%;
+}
+.row .ahorros {
+  background-image: linear-gradient(135deg, #abdcff 10%, #0396ff 100%);
+}
+.row .empanapp {
+  background-image: linear-gradient(135deg, #fad7a1 10%, #e96d71 100%);
+}
+.row .lin {
+  background-image: linear-gradient(135deg, #ce9ffc 10%, #7367f0 100%);
+}
+.row .mg {
+  background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
+}
+.row .mg span {
+  font-size: 1.3em;
+}
+.row .col:hover {
+  background: white;
+  transition: background 0.9s;
+  color: lightcoral;
+  text-shadow: 0px 0px 0px grey;
+  border: 1px solid lightcoral;
+}
+.row .col-12:hover {
+  background: white;
+  transition: background 0.9s;
+  color: #28c76f;
+  text-shadow: 0px 0px 0px grey;
+  border: 1px solid #28c76f;
+}
+
+/*# sourceMappingURL=main.css.map */
